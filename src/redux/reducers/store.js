@@ -4,12 +4,12 @@ import {composeWithDevTools} from 'redux-devtools-extension'
 
 import thunk from 'redux-thunk'
 const initialState = {
-    name:"Sumit",
-    age:"21"
+    name:"Kamil",
+    age:"18"
 }
 
 const reducer = (initialState)=>initialState
 
 const store = createStore(reducer,initialState,composeWithDevTools(applyMiddleware(thunk)))
 
-export default store;
+export default store

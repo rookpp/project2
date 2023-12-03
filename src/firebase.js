@@ -1,5 +1,5 @@
 import firebase from 'firebase/app'
-
+import 'firebase/auth'
 const firebaseConfig = {
     apiKey: "AIzaSyDLZ41eVignzd3cxzlaXwhdqWWm9jdr_CY",
     authDomain: "project-c972e.firebaseapp.com",
@@ -11,3 +11,4 @@ const firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig)
+  export default firebase.auth()

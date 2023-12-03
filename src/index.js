@@ -7,7 +7,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import './_base.scss'
-import store from './redux/store'
+import store from './redux/reducers/store'
 
 ReactDOM.render(
    <Provider store={store}>

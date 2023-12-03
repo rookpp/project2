@@ -27,11 +27,11 @@ const LoginScreen = () => {
          <div className='login__container'>
             <h2>Youtube Clone</h2>
             <img
-               src='https://www.svgrepo.com/download/156646/play-button.svg'
+               src='http://pngimg.com/uploads/youtube/youtube_PNG2.png'
                alt=''
             />
             <button onClick={handleLogin}>Login With google</button>
-            <p>using youtube data api</p>
+            <p>This Project is made using YOUTUBE DATA API</p>
          </div>
       </div>
    )
