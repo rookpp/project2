@@ -3,15 +3,16 @@ import Header from './components/header/header'
 import Sidebar from './components/sidebar/Sidebar'
 import { Container } from 'react-bootstrap'
 import HomeScreen from './components/screens/homeScreen/HomeScreen'
+import './_app.scss'
 
 const App = () => {
-  return <>
+  return( <>
   <Header/>
   <div className='app_container border border-info'><Sidebar/></div>
   <Container fluid className='app__main border border-warning'>
     <HomeScreen/>
   </Container>
-  </>
+  </>) 
 }
 
 export default App
